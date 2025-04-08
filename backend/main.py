@@ -1,4 +1,6 @@
 from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI, Request
+from fastapi.middleware.cors import CORSMiddleware
 from typing import Dict, Any
 from dotenv import load_dotenv
 import os
@@ -12,6 +14,12 @@ from agno.models.huggingface import HuggingFace
 from .models import CaseStudyInput, CaseStudyOutput
 
 app=FastAPI()
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"], 
+    allow_methods=["*"],
+    allow_headers=["*"],
 
 load_dotenv()
 
