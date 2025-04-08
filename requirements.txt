@@ -1,0 +1,13 @@
+agno
+groq
+googlesearch-python
+pycountry
+huggingface_hub
+transformers
+datasets
+torch
+python-dotenv
+fastapi
+uvicorn
+pydantic
+google-api-python-client

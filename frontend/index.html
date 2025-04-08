@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, inital-scale=1.0">
+    <title>Case Study Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>Case Study Generator</h1>
+
+    <div> 
+        <h2>Client Name (Required for Web Search)</h2>
+        <input type="text" id="client_name" placeholder="Enter Client Name for Web Search">
+    </div>
+
+    <div>
+        <h2>Client Requirements</h2>
+        <textarea id="client_requirements" placeholder="Enter client requirements (one per line)"></textarea>
+    </div>
+    
+    <div>
+        <h2>Challenges Facde</h2>
+        <textarea id="challenges_faced" placeholder="Enter the challenges faced (one per line)"></textarea>
+    </div>
+
+    <div>
+        <h2>Solutions Provided</h2>
+        <textarea id="solution_provided" placeholder="Enter the solutions provided (one per line)"></textarea>
+    </div>
+
+    <div>
+        <h2>Results Achieved</h2>
+        <textarea id="results_achieved" placeholder="Enter results achieved (one per line)"></textarea>
+    </div>
+
+    <button id="generate-button">Generate Case Study</button>
+
+    <div id="output-container">
+        <h2>Generated Case Study</h2>
+        <pre id="generated-output"></pre>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

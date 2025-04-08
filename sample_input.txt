@@ -1,0 +1,25 @@
+   "client_requirements": [
+        "Centralize client data and communication.",
+        "Improve tracking of consulting projects.",
+        "Enhance collaboration among consulting teams.",
+        "Gain better visibility into the sales pipeline.",
+        "Automate reporting on project progress and client engagement."
+    ],
+    "challenges_faced": [
+        "Scattered client information across spreadsheets and emails.",
+        "Lack of a standardized process for managing consulting",
+        "Manual effort required to generate project and client reports."
+    ],
+    "solution_provided": [
+        "Implemented a cloud-based CRM platform (e.g., Zoho CRM, Salesforce Sales Cloud - localized considerations might favor certain platforms).",
+        "Customized the CRM to track specific stages of sustainability consulting projects.",
+        "Integrated communication tools within the CRM for seamless team collaboration.",
+        "Developed sales pipeline stages and workflows tailored to their consulting sales process.",
+        "Created automated reports and dashboards for project status and client activity."
+    ],
+    "results_achieved": [
+        "Improved efficiency in accessing client information.",
+        "Streamlined project delivery and reduced project timelines.",
+        "Enhanced team collaboration and knowledge sharing.",
+        "Better forecasting of new business opportunities.",
+        "Significant reduction in the time spent on report generation."

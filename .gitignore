@@ -1,0 +1,35 @@
+# Python-specific ignores
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.python-version
+env/
+venv/
+myenv/
+*.egg-info
+
+# Environment files (sensitive data)
+.env
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs and temp files
+*.log
+tmp/
+temp/
+
+# Frontend specific ignores (if you build assets)
+node_modules/
+build/
+dist/
+.cache/
+
+# IDE specific files (common ones)
+.idea/
+.vscode/
+*.swp
+*.swo
+*.iml
