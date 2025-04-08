@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
         };
 
         try {
-            const response = await fetch('http://127.0.0.1:8000/generate_case_study', {
+            const response = await fetch('https://case-studies-generator-4ol1.vercel.app/', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
