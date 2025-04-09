@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
         };
 
         try {
-            const response = await fetch('https://case-study-backend-w20q.onrender.com', {
+            const response = await fetch('https://case-study-backend-w20q.onrender.com/generate_case_study', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
