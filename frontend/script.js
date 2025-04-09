@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
         };
 
         try {
-            const response = await fetch('https://case-studies-generator-4ol1.vercel.app/', {
+            const response = await fetch('https://case-study-backend-w20q.onrender.com', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
