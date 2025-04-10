@@ -33,14 +33,20 @@ document.addEventListener('DOMContentLoaded', () => {
                 body: JSON.stringify(inputData)
             });
 
+            let responseBody;
+
+            try {
+                responseBody = await response.clone().json();
+            } catch (jsonError) {
+                responseBody = await response.text();
+            }
+
             if (!response.ok) {
-                const error = await response.json();
-                generatedOutputDiv.textContent = `Error: ${response.status} - ${error.detail || 'Something went wrong'}`;
+                generatedOutputDiv.textContent = `Error: ${response.status} - ${responseBody?.detail || responseBody || 'Something went wrong'}`;
                 return;
             }
 
-            const output = await response.json();
-            generatedOutputDiv.textContent = JSON.stringify(output.generated_case_study, null, 2);
+            generatedOutputDiv.textContent = JSON.stringify(responseBody.generated_case_study, null, 2);
 
         } catch (error) {
             generatedOutputDiv.textContent = `Fetch error: ${error}`;
